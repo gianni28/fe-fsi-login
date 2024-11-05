@@ -15,7 +15,7 @@ function HomeContainer() {
 
   const bringData = async () => {
     try {
-      const users = await fetch("https://be-fsi-login.onrender.com/usuarios/usuarios").then((data) =>
+      const users = await fetch("https://be-fsi-login.onrender.com/usuarios").then((data) =>
         data.json()
       );
 
